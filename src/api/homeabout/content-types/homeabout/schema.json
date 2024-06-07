@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homeabouts",
+  "info": {
+    "singularName": "homeabout",
+    "pluralName": "homeabouts",
+    "displayName": "Homeabout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutText": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "abtImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "abtTitle": {
+      "type": "string"
+    }
+  }
+}

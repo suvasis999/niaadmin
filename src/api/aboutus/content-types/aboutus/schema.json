@@ -1,0 +1,135 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutuses",
+  "info": {
+    "singularName": "aboutus",
+    "pluralName": "aboutuses",
+    "displayName": "Aboutus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mdimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "abtDescripitoin": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title_we_are_the_pioneer": {
+      "type": "string"
+    },
+    "desc_we_are_the_pioneer": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title_global_operation": {
+      "type": "string"
+    },
+    "desc_global_operation": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title_oman_operation": {
+      "type": "string"
+    },
+    "desc_oman_operation": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "coimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Ourvisoin_title": {
+      "type": "string"
+    },
+    "Ourvisoin_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Ourmision_title": {
+      "type": "string"
+    },
+    "Ourmision_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Ourvalues_title": {
+      "type": "string"
+    },
+    "Ourvalues_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Ourcommitment_title": {
+      "type": "string"
+    },
+    "Ourcommitment_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Ourculture_title": {
+      "type": "string"
+    },
+    "Ourculture_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "standard_service_title": {
+      "type": "string"
+    },
+    "standard_service_desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

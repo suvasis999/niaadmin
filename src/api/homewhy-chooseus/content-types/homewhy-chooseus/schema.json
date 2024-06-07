@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homewhy_chooseuses",
+  "info": {
+    "singularName": "homewhy-chooseus",
+    "pluralName": "homewhy-chooseuses",
+    "displayName": "HomewhyChooseus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

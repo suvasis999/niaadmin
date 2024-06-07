@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homenews",
+  "info": {
+    "singularName": "homenew",
+    "pluralName": "homenews",
+    "displayName": "Homenew"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "details": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
